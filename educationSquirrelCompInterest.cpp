@@ -18,7 +18,7 @@ int main(){
 	cout << "Choose an interest plan. The higher the rate of interest the more nuts you will get\n"
 	cout << "but the longer you will have to put your money away\n";
 
-	cin << interestRate;
+	cin >> interestRate;
     interestRate = interestRate/100.0; // because kids will assume they have to enter in a percentage
 	if(interestRate <= 0.04){
 		yrsInvested = 5;
