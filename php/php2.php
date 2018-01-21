@@ -27,3 +27,15 @@ function doCopyRight()  {
 }
 
 ?>
+<?php
+
+function doCopyRight()
+{
+	echo "&copy; 2010-".date("Y");
+}
+
+
+
+?>
+
+
